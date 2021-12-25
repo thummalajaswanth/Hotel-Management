@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+           	
+		<title>Hotel Bookings | MJ TOURS AND TARVELS</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+                        
+		  
+	</head>
+	<body>
+		
+		
+				<div class="header-top-nav">
+					
+						<ul>
+							<ul class="nav nav-pills nav-fill bg-dark">
+                                                        <li><a href="Home.html">Home</a></li>
+							<li><a href="about.html">About & Contacts </a></li>
+							<li><a href="services .html">Services </a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+                                                        <li><a href="Bookings.html">My Bookings</a></li>
+</ul>
+					</div>
+				</div>
+			</div>		
+<!---End-header--->
+			<div class="clear"> </div>
+			<!---start-content----->
+			<div class="content">
+				<div class="wrap">
+				<!---start-about---->
+				<div class="about">
+				<div class="about-grids">
+					<div class="about-grid">
+						<h3>About My Journey Travels</h3>
+						<a href="#"><img src="images/Deluxe1.jpg" title="about"></a>
+						<span>"Our travel guides, which are curated by Travel + Leisure editors and a network of local correspondents, highlight the best hotels, restaurants, shops, bars, and things to do in the world's most exciting destinations. Browse our in-depth travel information for great ideas and insider finds, plus smart travel tips that will have you feeling like a local in no time"</span>
+						<p style="font-size:25px; font-family:Brush Script MT;"> Feel like  Local.</p>
+						<a class="button1" href=#"https://www.travelandleisure.com/travel-guide"target="popup" onclick="window.open('https://www.travelandleisure.com/travel-guide','name','width=600,height=400')">For More Details</a>
+					</div>
+					<div class="about-grid center-grid1">
+						<label>WHY CHOOSE US?</label>
+						<p>At Your Service. We're called Original Travel for a reason. It's because we're constantly looking for ways to make your holiday as perfect as possible, from the way we plan the trip to the authentic experiences you'll enjoy while away. Those added touches include several that no other UK-based travel company offers.</p>
+						<label>Benfits Of Our Travel Agency </label>
+						<p>Best In Class Service, Huge Inventories, Multiple Deals & Global Expertise! Cheaper smarter and simpler business trips. Book with partial payment. Free Cancellations. No Annual Maintenance Fee. Complimentary Meals. 100% GST Invoice Assured. No Hidden Charges.</p>
+						<label>Our Objectives</label>
+						<p>1 .Provide a high standard of services suitable for individuals seeking relaxing, comfortable and memorable experiences in the hospitality and tourism industry. </br>
+2 .Provide the tourist market with the quality personal required by the tourism industry. </br>
+3 .Produce expeditions and memories that would satisfy each and every single of the customers.</p>
+					</div>
+					<div class="about-grid last-grid">
+						<h3>Our Hotel's Staff Info.</h3>
+						<div class="about-team">
+							<div class="client">
+								<div class="about-team-left">
+									<a href="#"><img src="images/c1.jpg" title="client-name"></a>
+								</div>
+								<div class="about-team-right">
+									<h4>PRESIDENT</h4>
+                                                                        <h6>Name:P.Hruthik</br>Phone No:7013936XXX</br>Mail id:phruthik150@gmail.com</h6>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="client">
+								<div class="about-team-left">
+									<a href="#"><img src="images/c2.jpg" title="client-name"></a>
+								</div>
+								<div class="about-team-right">
+									<h4>Vice-PRESIDENT</h4>
+                                                                        <h6>Name:T.Santosh</br>Phone No:7995673XXX</br>Mail id:tsantosh007@gmail.com</h6>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="client">
+								<div class="about-team-left">
+									<a href="#"><img src="images/c1.jpg" title="client-name"></a>
+								</div>
+								<div class="about-team-right">
+									<h4>TRAVEL'S MANAGER</h4>
+                                                                        <h6>Name:T.Jaswanth</br>Phone No:9381422XXX</br>Mail id:tjaswanth789@gmail.com</h6>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="client">
+								<div class="about-team-left">
+									<a href="#"><img src="images/c2.jpg" title="client-name"></a>
+								</div>
+								<div class="about-team-right">
+									<h4>TRAVEL AGENT</h4>
+                                                                        <h6>Name:A.Bala Chandra</br>Phone No:9381579XXX</br>Mail id:cobrabala369@gmail.com</h6>
+								</div>
+								<div class="clear"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			</div>
+
+<div class="col span_2_of_3">
+				  <div class="contact-form">
+				  	<h3>Contact Us</h3>
+					    <form method="post" action="contact-post.html">
+					    	<div>
+						    	<span><label>FULL NAME</label></span>
+						    	<span><input name="userName" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>E-MAIL ID</label></span>
+						    	<span><input name="userEmail" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						     	<span><label>MOBILE NUMBER</label></span>
+						    	<span><input name="userPhone" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>SUBJECT</label></span>
+						    	<span><textarea name="userMsg"> </textarea></span>
+						    </div>
+						   <div>
+                                                                 
+						   		<a href="Submit.html"><button type="submit" class="btn btn-primary">Submit</a></button>
+						  </div>
+					    </form>
+
+				    </div>
+  				</div>				
+			  </div>
+			</div>
+				<!---End-about---->
+				<div class="clear"> </div>
+				<div class="boxs">
+				<div class="wrap">
+				<div class="box">
+</div>
+
+			
+				
+				
+					<div class="header">
+				<div class="wrap">
+
+
+					<div class="header-top">
+						<div class="logo">
+							<a>My Journey</a></br>
+                                                        <a>Tours & Travels</a>
+						</div>
+						<div class="contact-info">
+							<p class="phone">Call us : <a>9381422XXX</a></p>
+							 <p class="gpa">Gpa : <a href=#"https://www.google.com/maps/search/best+tourist+places+in+india+map/@17.4358283,78.4629759,12z/data=!3m1!4b1"target="popup" onclick="window.open('https://www.google.com/maps/search/best+tourist+places+in+india+map/@17.4358283,78.4629759,12z/data=!3m1!4b1','name','width=600,height=400')">Best Tourist Places</a></p>
+							
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+<div class="box center-box"></div>
+	</body>
+</html>

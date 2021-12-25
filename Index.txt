@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+           	
+		<title>Hotel Bookings | MJ TOURS AND TARVELS</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+                        <style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+	</head>
+	<body>
+		
+		
+				<div class="header-top-nav">
+					
+						<ul>
+							<ul class="nav nav-pills nav-fill bg-dark">
+                                                        <li><a href="Home.html">Home</a></li>
+							<li><a href="about.html">About & Contacts </a></li>
+							<li><a href="Services.html">Services </a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+                                                        <li><a href="Bookings.html">My Bookings</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+			<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/slider1.jpg" style="height:500px" style="width:1600px">
+  <div class="text">Novotel</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/slider2.jpg" style="height:500px" style="width:1600px">
+  <div class="text">Leela Palace</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/slider3.jpg" style="height:500px" style="width:1600px">
+  <div class="text">Crowne Plaza</div>
+</div>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 1500); // Change image every 2 seconds
+}
+</script>
+
+					
+
+			<div class="content">
+				<div class="quit">
+					<p><span class="start">Feel Like </span> Your <span class="end">Home .</span></p>
+				</div>
+			<div class="content-grids">
+						<div class="wrap">
+						<div class="content-grid">
+							<div class="content-grid-pic">
+								<a ><img src="images/icon1.png" title="image-name"/></a>
+							</div>
+							<div class="content-grid-info">
+								<h3>Best food Ever</h3>
+								<p>"Absolutely best Indian food I've ever had anywhere in the world. Hospitality was outstanding, the food plentiful with a diverse range. I couldn't recommend it enough for couples, groups or family."</p>
+								
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<div class="content-grid">
+							<div class="content-grid-pic">
+								<a href="#"><img src="images/icon2.png" title="image-name"/></a>
+							</div>
+							<div class="content-grid-info">
+								<h3>24x7 phone support</h3>
+								<p>"For anything urgent, you can call us 24/7 on a local or international phone number.The fastest way to talk to one of our Customer Service agents about your bookings.For details about your stay, they usually know best."</p>
+								
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<div class="content-grid">
+							<div class="content-grid-pic">
+								<a href="#"><img src="images/iocn3.png" title="image-name"/></a>
+							</div>
+							<div class="content-grid-info">
+								<h3>Best Room Services</h3>
+								<p>"Stayed at this hotel in the month of may. Rooms were pretty spacious but you need to go for executive rooms. if you go for a standard room it's not much spacious. Reception and staff were helpful. Bit expensive too."</p>
+								
+							</div>
+							<div class="clear"> </div>
+						</div>
+						
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="clear"> </div>
+				<div class="content-box">
+					<div class="wrap">
+					<div class="content-box-left">
+						<div class="content-box-left-topgrid">
+							<h3>welcome to our Hotel</h3
+							<p> Feel Like a Home :)</p>
+							<p> Anonymous hotel rooms just won’t cut the mustard anymore, ushered out for more personalized, residential-style experiences. This week, we highlight a number of hotels who have perfected the all-important home-away-from-home feel.</p>
+							<span>For more information about our Hotel, Call 9381422XXX</span>
+						</div>
+						<div class="content-box-left-bootomgrids">
+							<div class="content-box-left-bootomgrid">
+								<h3>Deluxe Rooms</h3>
+								<p> "You feel like as you live in home rooms. Lovely view at sunset! As the name suggests the deluxe is a superior class room, It all depends on your budget to get this extra space or luxury and the duration of your stay."</p>
+								<a><img src="images/slider1.jpg" title="image-name" /></a>
+							</div>
+							<div class="content-box-left-bootomgrid">
+								<h3>Luxury Rooms</h3>
+								<p>"A room that you like as soon as you walk in: with consistent design, high-quality furnishings, and no cheap touches such as rickety reading lamps."</p></br></br>
+								<a><img src="images/slider2.jpg" title="image-name" /></a>
+							</div>
+							<div class="content-box-left-bootomgrid lastgrid">
+								<h3>Executive Rooms</h3>
+								<p>An executive suite in its most general definition is a collection of offices or rooms—or suite—used by top managers of a business—or executives."</p></br></br>
+								<a><img src="images/slider3.jpg" title="image-name" /></a>
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<div class="clear"> </div>
+					</div>
+					<div class="content-box-right">
+						<div class="content-box-right-topgrid">
+							<h3>To days Specials</h3>
+							<a><img src="images/slider1.jpg"  /></a>
+							<h4>Super Discount Offer</h4>
+							<p>"Dream Destinations For Less.Upto 70% Off Offers On Domestic Hotel Bookings. Get The Best Offer Details Here Get the Best Rate for Your Next Hotel Booking. Start Your Travel Planning Today!"."</p>
+							
+						</div>
+						<div class="content-box-right-bottomgrid">
+							
+						</div>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+				<div class="boxs">
+				<div class="wrap">
+				<div class="box">
+			
+				</div>
+<div class="header">
+				<div class="wrap">
+					<div class="header-top">
+						<div class="logo">
+							<a>My Journey</a></br>
+                                                        <a>Tours & Travels</a>
+						</div>
+						<div class="contact-info">
+							<p class="phone">Call us : <a>9381422XXX</a></p>
+							 <p class="gpa">Gpa : <a href=#"https://www.google.com/maps/search/best+tourist+places+in+india+map/@17.4358283,78.4629759,12z/data=!3m1!4b1"target="popup" onclick="window.open('https://www.google.com/maps/search/best+tourist+places+in+india+map/@17.4358283,78.4629759,12z/data=!3m1!4b1','name','width=600,height=400')">Best Tourist Places</a></p>
+							
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="box center-box">
+					
+	</body>
+</html>

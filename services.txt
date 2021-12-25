@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		
+		<title>Hotel Bookings | MJ TOURS AND TARVELS</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+		  
+	</head>
+	<body>
+		
+		
+				<div class="header-top-nav">
+					
+						<ul>
+							<ul class="nav nav-pills nav-fill bg-dark">
+                                                        <li><a href="Home.html">Home</a></li>
+							<li><a href="about.html">About & Contacts </a></li>
+							<li><a href="services.html">Services </a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+                                                        <li><a href="Bookings.html">My Bookings</a></li>
+							<div class="clear"> </div>
+					</div>
+				</div>
+			</div>
+			
+					<div class="services">
+						<div class="service-content">
+							<h3><span>Our Hotel Services</Span></h3>
+							<ul>
+								<li><span>1.</span></li>
+								<li><p><a href="#">CULTURE SHOW</a> The artists use gestures to convey emotions and entire stories. Usually enacting themes and stories from two of India’s best loved epics, the Mahabharata and the Ramayana, the performance is visually arresting, extremely graceful and magnificent in execution.</p></li>
+								<div class="clear"> </div>
+							</ul>
+							<ul>
+								<li><span>2.</span></li>
+								<li><p><a href="#">SWIMMING POOL</a> After a long day of traveling or sightseeing, there’s nothing like a refreshing dip in the pool. If you’re looking to make a splash on your next vacation, we’ve rounded up the most exquisite pools from five-star hotels around the world. </p></li>
+								<div class="clear"> </div>
+							</ul>
+							<ul>
+								<li><span>3.</span></li>
+								<li><p><a href="#">RESTAURANT</a> Restaurants generally consist of three main areas: the kitchen, where the preparation and cooking of meals takes place; the food service, which provides the service of food to guests in the restaurant; and the bar, a lounge which provides live  entertainment and sales of alcoholic beverages and food. </p></li>
+								<div class="clear"> </div>
+							</ul>
+							<ul>
+								<li><span>4.</span></li>
+								<li><p><a href="#">CONFERENCE HALL</a>The best meeting rooms and conference venues, offered by My Journey Travels, provide a number of cutting edge facilities to guests. We have features of the best conference or meeting rooms </p></li>
+								<div class="clear"> </div>
+							</ul>
+							<ul>
+								<li><span>5.</span></li>
+								<li><p><a href="#">Indoor Stadium</a>Our indoor activities include arcade games such as Chess, Chinese Checkers, Carrom Board etc. Some other activities include mini table tennis, arcade football and a mini pool table.One can play a variety of indoor games and be busy with many activities at the hotel.</p></li>
+								<div class="clear"> </div>
+							</ul>
+							<ul>
+								<li><span>6.</span></li>
+								<li><p><a href="#">POOLSIDE BAR</a> Beautifully furnished and decorated with interesting artwork and hunting trophies, the comfortable Old Town Bar and Restaurant with unobtrusive friendly service creates a very special atmosphere. </p></li>
+								<div class="clear"> </div>
+							</ul>
+						</div>
+						<div class="services-sidebar">
+							<h3>WE PROVIDE</h3>
+							 <ul>
+							  	<li><a href="#">Car rental services</a></li>
+							  	<li><a href="#">Ironing service</a></li>
+							  	<li><a href="#">Laundry and valet service</a></li>
+							  	<li><a href="#">Room service (24-hour)</a></li>
+							  	<li><a href="#">Luggage storage</a></li>
+								<li><a href="#">Fitness room</a></li>
+		                                                <li><a href="#">Sauna and steam bath</a></li>
+					 		 </ul>
+					 		 
+						</div>
+						<div class="clear"> </div>
+					</div>
+					
+				</div>
+				<div class="clear"> </div>
+				<div class="boxs">
+				<div class="wrap">
+				<div class="box">
+					 
+				</div>
+<div class="header">
+				<div class="wrap">
+					<div class="header-top">
+						<div class="logo">
+							<a>My Journey</a></br>
+                                                        <a>Tours & Travels</a>
+						</div>
+						<div class="contact-info">
+							<p class="phone">Call us : <a>9381422XXX</a></p>
+							 <p class="gpa">Gpa : <a href=#"https://www.google.com/maps/search/best+tourist+places+in+india+map/@17.4358283,78.4629759,12z/data=!3m1!4b1"target="popup" onclick="window.open('https://www.google.com/maps/search/best+tourist+places+in+india+map/@17.4358283,78.4629759,12z/data=!3m1!4b1','name','width=600,height=400')">Best Tourist Places</a></p>
+							
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="box center-box">
+				
+	</body>
+</html>

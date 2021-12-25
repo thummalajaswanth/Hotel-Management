@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Bookings | MJ TOURS AND TARVELS</title>
+       
+        
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+	<div class="header-top-nav">
+					
+						<ul>
+							<ul class="nav nav-pills nav-fill bg-dark">
+                                                        <li><a href="Home.html">Home</a></li>
+							<li><a href="about.html">About & Contacts </a></li>
+							<li><a href="services .html">Services </a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+                                                        <li><a href="Bookings.html">My Bookings</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</div>
+				</div>
+			</div>
+        <div class="container my-5">
+            <form onsubmit="return validation();">
+                <h4>BOOKING & CONTACT</h4>
+                <hr />
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Name" id="name" />
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Email" id="email"/>
+                </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" class="form-control" placeholder="phone" id="phone"/>
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-8">
+                            <label>Street</label>
+                            <input type="text" class="form-control" placeholder="Street" id="street" />
+                        </div>
+                        <div class="col-md-4">
+                            <label>Number</label>
+                            <input type="text" class="form-control" placeholder="Number" id="number" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-8">
+                            <label>City</label>
+                            <input type="text" class="form-control" placeholder="City" id="city" />
+                        </div>
+                        <div class="col-md-4">
+                            <label>Post Code</label>
+                            <input type="text" class="form-control" placeholder="Post Code" id="post"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Country</label>
+                    <input type="text" class="form-control" placeholder="Country" id="country" />
+                </div>
+                <h4>Details</h4>
+                <hr />
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-3">
+                            <label>Arrival</label>
+                            <input type="date" class="form-control" id="arrival" />
+                        </div>
+                        <div class="col-md-3">
+                            <label>Departure</label>
+                            <input type="date" class="form-control" id="departure" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-4">
+                            <label>People</label>
+                            <select class="form-control" required>
+                                <option>People</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Room</label>
+                            <select class="form-control" required>
+                                <option>Room</option>
+                                <option value="">With Bathroom</option>
+                                <option value="">Without Bathroom</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Bedding</label>
+                            <select class="form-control" required>
+                                <option>Bedding</option>
+                                <option value="">Doppelbett</option>
+                                <option value="">Zweibett</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                	<p>Please describe your needs e.g. Extra beds, children's cots</p>
+                	<textarea placeholder="Comments" rows="5" class="form-control" id="comment"></textarea>
+                </div>
+                <div class="form-group">
+                	<input type="submit" value="Submit" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+<div class="header">
+				<div class="wrap">
+					<div class="header-top">
+						<div class="logo">
+							<a>My Journey</a></br>
+                                                        <a>Tours & Travels</a>
+						</div>
+						<div class="contact-info">
+							<p class="phone">Call us : <a>9381422XXX</a></p>
+							 <p class="gpa">Gpa : <a href=#"https://www.google.com/maps/search/best+tourist+places+in+india+map/@17.4358283,78.4629759,12z/data=!3m1!4b1"target="popup" onclick="window.open('https://www.google.com/maps/search/best+tourist+places+in+india+map/@17.4358283,78.4629759,12z/data=!3m1!4b1','name','width=600,height=400')">Best Tourist Places</a></p>
+							
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="box center-box">
+					
+    </body>
+</html>
